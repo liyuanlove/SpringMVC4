@@ -2,6 +2,8 @@ package com.powernode.service.impl;
 
 import javax.annotation.Resource;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -12,7 +14,7 @@ import com.powernode.service.IStudentService;
 @Service("studentService")
 public class StudentServiceImpl implements IStudentService {
 
-    //    @Autowired
+//    @Autowired
 //    @Qualifier("IStudentDao")
     @Resource(name = "IStudentDao")
     private IStudentDao dao;

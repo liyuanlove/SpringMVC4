@@ -4,9 +4,7 @@
     <title>Login Page</title>
 </head>
 <body>
-<%
-    session.removeAttribute("user");
-%>
+<% session.removeAttribute("user"); %>
 成功退出
 </body>
 </html>

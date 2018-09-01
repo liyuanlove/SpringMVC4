@@ -8,11 +8,7 @@ import java.util.regex.Pattern;
 import org.springframework.beans.TypeMismatchException;
 import org.springframework.core.convert.converter.Converter;
 
-/**
- * Converter接口中的两个泛型表示：
- * 第一个：表示源的类型
- * 第二个：表示宿的类型，即转换的目标类型
- */
+//Converter接口的两个泛型：第一个表示源的类型；第二个表示宿的类型，即转换的目标类型
 public class MyDataConverter implements Converter<String, Date> {
 
     @Override

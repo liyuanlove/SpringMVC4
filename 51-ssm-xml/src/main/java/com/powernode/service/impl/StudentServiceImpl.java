@@ -15,7 +15,6 @@ public class StudentServiceImpl implements IStudentService {
     @Override
     public void addStudent(Student student) {
         dao.insertStudent(student);
-
     }
 
 }

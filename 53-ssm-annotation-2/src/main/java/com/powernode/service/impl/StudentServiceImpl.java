@@ -12,7 +12,7 @@ import com.powernode.service.IStudentService;
 @Service("studentService")
 public class StudentServiceImpl implements IStudentService {
 
-    //    @Autowired
+//    @Autowired
 //    @Qualifier("IStudentDao")
     @Resource(name = "IStudentDao")
     private IStudentDao dao;

@@ -4,9 +4,7 @@
     <title>Login Page</title>
 </head>
 <body>
-<%
-    session.setAttribute("user", "beijing");
-%>
+<% session.setAttribute("user", "beijing"); %>
 登录成功
 </body>
 </html>
